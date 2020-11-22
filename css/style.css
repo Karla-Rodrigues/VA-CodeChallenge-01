@@ -1,0 +1,128 @@
+:root{
+      font-size: 16px;
+    }
+    
+    /* Media */
+    
+    @media (min-width: 150px) {
+      :root{
+        font-size: 5px;
+      }
+    }
+    @media (min-width: 780px) {
+      :root{
+        font-size: 9px;
+      }
+    }
+    @media (min-width: 990px) {
+      :root{
+        font-size: 12px;
+      }
+    }
+    @media (min-width: 1200px) {
+      :root{
+        font-size: 16px;
+      }
+    }  
+    
+    html,body{
+      width: 100%;
+      margin: 0px;
+      padding: 0px;
+      overflow-x: hidden; 
+      font: 16px/1 Arial, Helvetica,sans-serif;
+    }
+
+    .float-left{
+      float: left;
+    }
+
+    .float-right{
+      float: right;
+    }
+    
+     /* Header **/
+     header{
+      top: 0;
+      position: relative;
+      background:#333;
+      color:#fff;
+      width:100%;
+      min-height:200px;
+      padding-top:1.1rem;
+    }
+
+    .header-text{
+      min-height:80px;
+      padding: 20px 0 20px 0;
+    }
+
+    .header-logo-text {
+      position: relative;
+      margin: 0;
+      font-size: 1.75rem;
+      font-weight: 100;
+    }
+
+    header a{
+      color:#fff;
+      text-decoration: none;
+    }
+
+      header a:hover{
+            color:#fff;
+            text-decoration:none;
+      }
+
+    header li{
+      float:left;
+      display:inline;
+      padding: 0 1.25rem 0 1.25rem;
+    }
+
+    header img{
+      width: 100%;
+    }
+
+     /* Body text **/
+     .body-text{
+      position: relative;
+      background:#fff;
+      color:#333;
+      width:100%;
+      height: fit-content;
+    }
+
+    .body-text-text{
+      padding: 50px 0 50px 0;
+    }
+
+    /* Body link **/
+    .body-link{
+      background-image: url("../images/BlueBackground.jpg");
+      background-size: cover;
+      color:#fff;
+      padding: 50px 0 50px 0;
+      position: relative;
+    }
+
+    .body-link-col{
+      position: center;
+      text-align: center;
+      width:100%;
+      padding:2.5rem;
+    }
+
+    /* Footer **/
+    footer{
+      position: relative;
+      background:#333;
+      color:#fff;
+      width:100%;
+      min-height:70px;
+      padding-top:1.1rem;
+    }
+
+    
+
+    
